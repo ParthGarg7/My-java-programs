@@ -1,0 +1,6 @@
+area of triangle b*h
+area of triangle heron
+si
+simple cal
+
+with sacnner and comand prompt
