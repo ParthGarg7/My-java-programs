@@ -2,12 +2,12 @@
  public  class lab4_1{
     public static void main(String[] args) {
 
-    //    Student S1 = new Student();
-    //    S1.Name = "Ansh";
-    //    S1.Age = 20;
+       Student S1 = new Student();
+       S1.Name = "Ansh";
+       S1.Age = 20;
        Student S2 = new Student("Parth" , 19);
 
-    //    S1.Print();
+       S1.Print();
        S2.Print();
 
     }
@@ -27,8 +27,8 @@ class Student
            Age = age;
     }
 
-    // Student() {
-    // }
+    Student() {
+    }
 
     
     void Print()
