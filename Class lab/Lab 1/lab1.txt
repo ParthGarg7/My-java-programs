@@ -1,8 +1,0 @@
-date 9 jan 2025
-java lab 1
-
-programs 
-
-1 helloUPES.java
-2 printing name and address
-3 simple cal
