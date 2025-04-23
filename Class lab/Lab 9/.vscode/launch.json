@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Run ToDo App",
+        "request": "launch",
+        "mainClass": "CreateDB", // 🔁 Change this to your actual main class (the one with `public static void main`)
+        "vmArgs": "-cp \".;sqlite-jdbc-3.49.1.0.jar\""
+      }
+    ]
+  }
+  
