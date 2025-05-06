@@ -1,0 +1,20 @@
+Write a Java Swing program to create a Login Form using JTextField, JPasswordField, JButton, and JLabel. 
+
+When the login button is clicked, validate if the username is "admin" and the password is "password". 
+
+
+Design a simple calculator using Java Swing with buttons for digits (0-9), addition (+), subtraction (-), multiplication (*), and division (/). Implement event handling for button clicks and display the result in a JTextField.
+
+
+Create a To-Do List Application
+Write a Java Swing program to implement a To-Do List using JList. Provide:
+A JTextField to enter tasks
+An Add button to add tasks to the list
+A Remove button to delete selected tasks
+
+
+Connect a Swing Form to MySQL Database
+Write a Swing application with JDBC to insert and retrieve employee details (ID, Name, Department, Salary) into/from a MySQL database. Use:
+JTextField for input
+JButton for inserting data
+JTable for displaying retrieved records
