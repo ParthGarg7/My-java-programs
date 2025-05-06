@@ -11,7 +11,5 @@ public class lab2_4{
             System.out.println(num + " is zero");
         else 
             System.out.println(num + " is a negative number");
-        
-
     }
 }

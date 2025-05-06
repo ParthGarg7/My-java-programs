@@ -1,7 +1,7 @@
-public class lab1_3 
-{
-    public static void main(String[] args)
-     {
+
+public class lab1_3 {
+
+    public static void main(String[] args) {
         String name = "Parth Garg";
         String rollNumber = "R2142231540";
         String sapId = "500123456";

@@ -29,11 +29,5 @@ public class lab3_5_1{
           System.out.println(target + " is not present in the given array");
         else
            System.out.println(target + " is present " + count + " times in the given array");
-
-        
-        
-        
-
-
     }
 }

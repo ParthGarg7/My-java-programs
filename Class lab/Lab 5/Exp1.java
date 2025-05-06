@@ -1,50 +1,37 @@
-public class Exp1{
+// Example usage
+
+public class Exp1 {
+
     public static void main(String[] args) {
+        // Using default constructor
+        Student student1 = new Student();
+        student1.displayDetails();
 
-       B obj = new B();
-       obj.display1();
-       //obj.display2();
-       obj.display3();
+        // Using parameterized constructor
+        Student student2 = new Student("Alice", 20);
+        student2.displayDetails();
     }
 }
 
+class Student {
 
-class A {
- private int a = 1, b = 2;
+    String name;
+    int age;
 
-    A(){
-        System.out.println("Class A"); 
+    // Default constructor
+    Student() {
+        this.name = "Default Name";
+        this.age = 18;
     }
 
-    void displayA(){
-     System.out.println("Variables of Class A");
-     System.out.println("a = " + a + " b = " + b);
-    }      
-}
-
-
-
-
-
-class B extends A{
-    int a = 3 , b = 4;
-
-    B(){
-      System.out.println("Class B"); 
+    // Parameterized constructor
+    Student(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
- 
-    // This will print the variables of the class B
-    void display1(){
-     System.out.println("Variables of Class B");
-     System.out.println("a = " + a + " b = " + b);
-    }   
 
-    void display2(){
-     System.out.println("a = " + super.a + " b = " + super.b);
-    }    
-
-    void display3(){
-       displayA();
-    } 
-
+    // Method to display student details
+    void displayDetails() {
+        System.out.println("Name: " + name + ", Age: " + age);
+    }
 }
