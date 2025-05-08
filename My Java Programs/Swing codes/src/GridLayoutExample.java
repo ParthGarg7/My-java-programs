@@ -1,6 +1,6 @@
 
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
 
 public class GridLayoutExample {
 
@@ -11,7 +11,7 @@ public class GridLayoutExample {
         F1.setLocationRelativeTo(null);
 
         JPanel P1 = new JPanel();
-        P1.setLayout(new GridLayout(3,3,10,10));
+        P1.setLayout(new GridLayout(4,1,10,10));
         P1.setBackground(Color.WHITE);
 
         for(int i = 1 ; i < 10 ; i++)
