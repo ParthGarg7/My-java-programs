@@ -2,16 +2,19 @@ public class Exp2{
     public static void main(String[] args) {
 
         Player.Play();
-        Player.Train();
         
         Cricket_Player p1 = new Cricket_Player();
+
         p1.Name = "Rohit";
         p1.Age = 30;
         p1.Country = "India";
         p1.Position = "Captain";
+
         p1.Display_Cricket_Player();
+        
 
         Hockey_Player p2 = new Hockey_Player("Dhyan Chand" , 31 ,"India" ,"Centre-forward" );
+
         p2.Display_Hockey_Player();
 
 
@@ -35,7 +38,7 @@ class Player{
         System.out.println("Lets play a game");
     }
 
-    static void Train(){
+   void Train(){
         System.out.println("Training is very important");
     }
 
@@ -43,7 +46,8 @@ class Player{
 
 class Cricket_Player extends Player{
 
-    void Display_Cricket_Player(){
+    void Display_Cricket_Player()
+    {
      System.out.println("Cricket_Player: ");
      System.out.println("Name: " + Name);
      System.out.println("Age: " + Age);
@@ -56,6 +60,8 @@ class Cricket_Player extends Player{
 }
 
 class Hockey_Player extends Player{
+
+
 
     Hockey_Player(String a , int b , String c , String d) {
         Name = a;
